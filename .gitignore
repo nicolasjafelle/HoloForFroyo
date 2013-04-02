@@ -1,0 +1,12 @@
+#Android generated
+bin
+gen
+lint.xml
+project.properties
+
+#Maven
+target
+
+#Other
+.DS_Store
+tmp
