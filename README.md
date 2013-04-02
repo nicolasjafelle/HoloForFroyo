@@ -1,9 +1,9 @@
 HoloForFroyo
 ============
 
-HoloForFroyo is a base proyect to start using it. The aim of this proyect is to provide a customizable holo interface on Froyo, Gingerbread and above.
+HoloForFroyo is a base project to start using it. The aim of this project is to provide a customizable holo interface on Froyo, Gingerbread and above.
 
-It uses ActionBarSherlock and for that reason you must download or clone Jake Wharton's ActionBarSherlock proyect. We also created all the styles, assets and drawables
+It uses ActionBarSherlock and for that reason you must download or clone Jake Wharton's ActionBarSherlock project. We also created all the styles, assets and drawables
 thanks to Android-holo-colors and ActionBar Style Generator.
 
 source: <a href="https://github.com/JakeWharton/ActionBarSherlock">ActionBarSherlock</a>
