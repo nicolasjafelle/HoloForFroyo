@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewAppTheme" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/list_selector_holo_light</item>
+	    <item name="android:background">@drawable/edit_text_holo_light</item>
+  </style>
+
+  <style name="ButtonAppTheme" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonAppTheme" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerAppTheme" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/list_selector_holo_light</item>
+  </style>
+
+  <style name="ProgressBarAppTheme" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarAppTheme" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBarAppTheme" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarBigAppTheme" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/ratingbar_holo_light</item>
+  </style>
+
+  <style name="RatingBarSmallAppTheme" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/ratingbar_small_holo_light</item>
+  </style>
+
+  <style name="ToggleAppTheme" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/btn_toggle_holo_light</item>
+  </style>
+  
+  <!--** ACTION BAR SHERLOCK THEME VALUES **-->
+  <style name="Theme.My_action_bar_theme" parent="@style/Theme.Sherlock.Light">
+      <item name="android:actionBarItemBackground">@drawable/selectable_background_my_action_bar_theme</item>
+      <item name="android:popupMenuStyle">@style/PopupMenu.My_action_bar_theme</item>
+      <item name="android:dropDownListViewStyle">@style/DropDownListView.My_action_bar_theme</item>
+      <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.My_action_bar_theme</item>
+      <item name="android:actionDropDownStyle">@style/DropDownNav.My_action_bar_theme</item>
+      <item name="android:actionBarStyle">@style/ActionBar.Solid.My_action_bar_theme</item>
+      <item name="android:actionModeBackground">@drawable/cab_background_top_my_action_bar_theme</item>
+      <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_my_action_bar_theme</item>
+      <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.My_action_bar_theme</item>
+  </style>
+  
+  <style name="ActionBar.Solid.My_action_bar_theme" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+      <item name="android:background">@drawable/ab_solid_my_action_bar_theme</item>
+      <item name="android:backgroundStacked">@drawable/ab_stacked_solid_my_action_bar_theme</item>
+      <item name="android:backgroundSplit">@drawable/ab_bottom_solid_my_action_bar_theme</item>
+      <item name="android:progressBarStyle">@style/ProgressBar.My_action_bar_theme</item>
+  </style>
+  
+  <style name="ActionBar.Transparent.My_action_bar_theme" parent="@style/Widget.Sherlock.Light.ActionBar">
+      <item name="android:background">@drawable/ab_transparent_my_action_bar_theme</item>
+      <item name="android:progressBarStyle">@style/ProgressBar.My_action_bar_theme</item>
+  </style>
+  
+  <style name="PopupMenu.My_action_bar_theme" parent="@style/Widget.Sherlock.Light.ListPopupWindow">
+      <item name="android:popupBackground">@drawable/menu_dropdown_panel_my_action_bar_theme</item>
+  </style>
+  
+  <style name="DropDownListView.My_action_bar_theme" parent="@style/Widget.Sherlock.Light.ListView.DropDown">
+      <item name="android:listSelector">@drawable/selectable_background_my_action_bar_theme</item>
+  </style>
+  
+  <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+  <style name="Theme.My_action_bar_theme.Widget" parent="@style/Theme.Sherlock">
+      <item name="android:popupMenuStyle">@style/PopupMenu.My_action_bar_theme</item>
+      <item name="android:dropDownListViewStyle">@style/DropDownListView.My_action_bar_theme</item>
+  </style>
+</resources>

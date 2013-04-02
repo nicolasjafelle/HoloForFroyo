@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AppTheme" parent="@style/Theme.Sherlock.Light">
+
+    <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewAppTheme</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonAppTheme</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerAppTheme</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarAppTheme</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarAppTheme</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarAppTheme</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigAppTheme</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallAppTheme</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleAppTheme</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+
+    <!--** ACTION BAR SHERLOCK THEME VALUES **-->
+    <item name="android:actionBarItemBackground">@drawable/selectable_background_my_action_bar_theme</item>
+    
+    <item name="android:popupMenuStyle">@style/PopupMenu.My_action_bar_theme</item>
+    
+    <item name="android:dropDownListViewStyle">@style/DropDownListView.My_action_bar_theme</item>
+    
+    <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.My_action_bar_theme</item>
+    
+    <item name="android:actionDropDownStyle">@style/DropDownNav.My_action_bar_theme</item>
+    
+    <item name="android:actionBarStyle">@style/ActionBar.Solid.My_action_bar_theme</item>
+    
+    <item name="android:actionModeBackground">@drawable/cab_background_top_my_action_bar_theme</item>
+    
+    <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_my_action_bar_theme</item>
+    
+    <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.My_action_bar_theme</item>
+</style>
+
+</resources>

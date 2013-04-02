@@ -1,0 +1,141 @@
+<resources>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.Sherlock.Light">        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme"> <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="EditTextAppTheme" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/edit_text_holo_light</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="AutoCompleteTextViewAppTheme" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/list_selector_holo_light</item>
+        <item name="android:background">@drawable/edit_text_holo_light</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="CheckBoxAppTheme" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_check_holo_light</item>
+    </style>
+    <style name="RadioButtonAppTheme" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/btn_radio_holo_light</item>
+    </style>
+    <style name="ButtonAppTheme" parent="android:Widget.Button">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="ImageButtonAppTheme" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
+    </style>
+    <style name="SpinnerAppTheme" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/spinner_background_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/list_selector_holo_light</item>
+    </style>
+    <style name="SpinnerAppTheme.DropDown">
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+    <style name="SpinnerDropDownItemAppTheme" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:checkMark">@drawable/btn_radio_holo_light</item>
+    </style>
+    <style name="ProgressBarAppTheme" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_holo_light</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+    <style name="SeekBarAppTheme" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo_light</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+    <style name="RatingBarAppTheme" parent="android:Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_full_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_full_holo_light</item>
+    </style>
+    <style name="RatingBarBigAppTheme">
+        <item name="android:progressDrawable">@drawable/ratingbar_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_holo_light</item>
+        <item name="android:minHeight">35dip</item>
+        <item name="android:maxHeight">35dip</item>
+    </style>
+    <style name="RatingBarSmallAppTheme">
+        <item name="android:progressDrawable">@drawable/ratingbar_small_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_small_holo_light</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+    <style name="ToggleAppTheme" parent="android:Widget.Button.Toggle">
+        <item name="android:background">@drawable/btn_toggle_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+    </style>
+    <style name="ListViewAppTheme" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/list_selector_holo_light</item>
+    </style>
+    <style name="ListViewAppTheme.White" parent="android:Widget.ListView.White">
+        <item name="android:listSelector">@drawable/list_selector_holo_light</item>
+    </style>
+    <style name="SpinnerItemAppTheme" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- ** ACTION BAR SHERLOCK THEME VALUES ** -->
+    <style name="Theme.My_action_bar_theme" parent="@style/Theme.Sherlock.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_my_action_bar_theme</item>
+        <item name="popupMenuStyle">@style/PopupMenu.My_action_bar_theme</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.My_action_bar_theme</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.My_action_bar_theme</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.My_action_bar_theme</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.My_action_bar_theme</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_my_action_bar_theme</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_my_action_bar_theme</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.My_action_bar_theme</item>
+    </style>
+    <style name="ActionBar.Solid.My_action_bar_theme" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_my_action_bar_theme</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_my_action_bar_theme</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_my_action_bar_theme</item>
+        <item name="progressBarStyle">@style/ProgressBar.My_action_bar_theme</item>
+    </style>
+    <style name="ActionBar.Transparent.My_action_bar_theme" parent="@style/Widget.Sherlock.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_my_action_bar_theme</item>
+        <item name="progressBarStyle">@style/ProgressBar.My_action_bar_theme</item>
+    </style>
+    <style name="PopupMenu.My_action_bar_theme" parent="@style/Widget.Sherlock.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_my_action_bar_theme</item>
+    </style>
+    <style name="DropDownListView.My_action_bar_theme" parent="@style/Widget.Sherlock.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_my_action_bar_theme</item>
+    </style>
+    <style name="ActionBarTabStyle.My_action_bar_theme" parent="@style/Widget.Sherlock.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_my_action_bar_theme</item>
+    </style>
+    <style name="DropDownNav.My_action_bar_theme" parent="@style/Widget.Sherlock.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_my_action_bar_theme</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_my_action_bar_theme</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_my_action_bar_theme</item>
+    </style>
+    <style name="ProgressBar.My_action_bar_theme" parent="@style/Widget.Sherlock.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_my_action_bar_theme</item>
+    </style>
+    <style name="ActionButton.CloseMode.My_action_bar_theme" parent="@style/Widget.Sherlock.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_my_action_bar_theme</item>
+    </style>
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.My_action_bar_theme.Widget" parent="@style/Theme.Sherlock">
+        <item name="popupMenuStyle">@style/PopupMenu.My_action_bar_theme</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.My_action_bar_theme</item>
+    </style>
+</resources>

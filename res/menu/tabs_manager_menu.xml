@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tabs_manager_share"
+        android:icon="@drawable/ic_action_share"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Share"/>
+    <item
+        android:id="@+id/tabs_manager_more"
+        android:icon="@drawable/ic_menu_moreoverflow_normal_holo_light"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="More">
+        <menu>
+            <item
+                android:id="@+id/tabs_manager_settings"
+                android:icon="@drawable/ic_action_share"
+                android:showAsAction="always|withText"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/tabs_manager_about_us"
+                android:icon="@drawable/ic_action_about"
+                android:showAsAction="always|withText"
+                android:title="About Us"/>
+        </menu>
+    </item>
+</menu>
