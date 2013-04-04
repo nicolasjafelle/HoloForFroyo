@@ -6,9 +6,8 @@ HoloForFroyo is a base project to start using it. The aim of this project is to 
 It uses ActionBarSherlock and for that reason you must download or clone Jake Wharton's ActionBarSherlock project. We also created all the styles, assets and drawables
 thanks to Android-holo-colors and ActionBar Style Generator.
 
-This is an option to use instead of HoloEverywhere. It has its pros and cons. The most important pro is that you use the native Android View and Activity and
-there is no need to import another package like "org.holoeverywhere.app...".
-The main disadvantage is that Dialog and DialogFragments are still not supported. 
+This is an option to use instead of HoloEverywhere. It has its pros and cons. The most important pro is that it uses the Android native View and Activity and 
+there is no need to import another package like "org.holoeverywhere.app...". The main disadvantage is that Dialog and DialogFragments are still not supported.
 
 source: <a href="https://github.com/JakeWharton/ActionBarSherlock">ActionBarSherlock</a>
 
